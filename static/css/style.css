@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(71, 132, 189);
+}
+
+li {
+    margin-left: 20px;
+	padding: 15px 0 15px 80px;
+    list-style: none;
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: left center;
+}
+li.web {
+    background-image: url('static/img/icons8-earth-64.png');
+}
+li.git {
+    background-image: url('static/img/icons8-git-60.png');
+}
+
+li a {
+    padding: 20px;
+    width: 300px;
+    height: auto;
+    border: solid rgb(71, 132, 189);
+    border-radius: 30px;
+}
+a:hover {
+    background: #97dba8;
+}
+li > a {
+    display: block;
+}
+
+.header {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    background: rgb(71, 132, 189);
+    margin-bottom: 20px;
+}
+
+.content {
+    margin: 0 auto;
+    width: 800px;
+    padding: 10px 20px;
+    border-left: 5px solid #ddd;
+    border-right: 5px solid #ddd;
+}
