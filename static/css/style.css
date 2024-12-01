@@ -2,55 +2,63 @@
     margin: 0;
     padding: 0;
 }
-
 a {
+    color: #eee;
     font-size: 30px;
     text-decoration: none;
-    color: rgb(71, 132, 189);
 }
-
+a span {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
 li {
-    margin-left: 20px;
-	padding: 15px 0 15px 80px;
     list-style: none;
-    background-repeat: no-repeat;
+	padding: 15px 0 15px 80px;
+    
     background-size: 60px;
+    background-repeat: no-repeat;
     background-position: left center;
 }
-li.web {
+.web {
     background-image: url('../img/icons8-earth-64.png');
 }
-li.git {
+.git {
     background-image: url('../img/icons8-git-60.png');
 }
-
-li a {
-    padding: 20px;
-    width: 300px;
-    height: auto;
-    border: solid rgb(71, 132, 189);
-    border-radius: 30px;
-}
 a:hover {
-    background: #97dba8;
+    color: #eee;
+    background: rgb(71, 132, 189);
 }
 li > a {
-    display: block;
-}
+    color: rgb(71, 132, 189);
 
-.header {
-    color: #fff;
-    font-size: 30px;
-    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+
     padding: 20px;
-    background: rgb(71, 132, 189);
-    margin-bottom: 20px;
+    margin: 0 auto;
+    border-radius: 30px;
+    border: 3px solid rgb(71, 132, 189);
 }
 
 .content {
-    margin: 0 auto;
     width: 800px;
-    padding: 10px 20px;
-    border-left: 5px solid #ddd;
-    border-right: 5px solid #ddd;
+    display: flex;
+    margin: 0 auto;
+}
+.hr {
+    padding: 1px;
+    background: #eee;
+    border: 2px solid #ededed;
+}
+.content ul {
+    flex-grow: 1;
+    padding: 20px 30px;
+}
+.header {
+    padding: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background: rgb(71, 132, 189);
 }
