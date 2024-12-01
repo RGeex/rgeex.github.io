@@ -18,10 +18,10 @@ li {
     background-position: left center;
 }
 li.web {
-    background-image: url('static/img/icons8-earth-64.png');
+    background-image: url('../img/icons8-earth-64.png');
 }
 li.git {
-    background-image: url('static/img/icons8-git-60.png');
+    background-image: url('../img/icons8-git-60.png');
 }
 
 li a {
